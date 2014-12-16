@@ -1,0 +1,76 @@
+/* Stylesheet for assignment 3 */
+
+header {
+  text-align: center;
+}
+
+.blink {
+  font-size: 28px;
+}
+
+nav {
+  float: left;
+  font-size: 200%;
+}
+
+.clear-float {
+    clear: both;
+}
+
+body {
+  background-color: black;
+}
+
+
+p, h1, h2, .custom {
+  color: white;
+}
+
+p.indent {
+  text-indent: 50px;
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  color: white;
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;    
+}
+
+img:hover {
+  opacity: 0.4;
+
+}
+
+img {
+  margin: 3em;
+}
+
+.list-project, .blink {
+  font-family: 'Lato', sans-serif;
+}
+
+.set-pos {
+  position: relative;
+  left: 5rem;
+}
+
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
